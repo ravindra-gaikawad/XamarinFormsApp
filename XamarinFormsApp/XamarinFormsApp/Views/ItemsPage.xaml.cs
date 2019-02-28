@@ -20,7 +20,7 @@ namespace XamarinFormsApp.Views
     {
         private readonly IItemService itemService;
         private readonly ItemsViewModel itemsViewModel;
-        
+
         // Todo: Remove this after,able to resolve DI in MainPage Detail XAML code.
         public ItemsPage()
         {
@@ -65,7 +65,7 @@ namespace XamarinFormsApp.Views
             base.OnAppearing();
 
             var items = await itemService.GetAsync();
-            itemsViewModel.Items.AddRange<Item>(items);
+            itemsViewModel.Items.AddRange<Item>(items, clear: true);
         }
     }
 }
