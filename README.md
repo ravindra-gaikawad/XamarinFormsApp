@@ -10,7 +10,9 @@ This project contains boilerplate for following components
   - UnitTest
   - Local Database
   - Http Service Calls
-  - Internal Service Calls
+  - Internal Service Calls   
+- Investigation
+  - The reference links and data is logged into file *XamarinForms Investigation.xlsx*. These file is placed at root level in solution.
 
 ## Features
   - XamarinForms MVVM architecture followed.
@@ -23,6 +25,7 @@ This project contains boilerplate for following components
   - Sqlite-Net-PCL.
   - XUnit and Moq.
   - Autofac.
+  - Git
 
 ## Solution Structure
 Solution structure is build such that inside projects would be loose coupled and can be reused independently as much as possible.
@@ -69,3 +72,4 @@ Following things are not provided in solution, but you can implement as per you 
 - Exception handling.
 - Exception logging and crash reporting.
 - UI tests
+- Code Styling
