@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinFormsApp.Core\XamarinFormsApp.Core.csproj" />
+    <ProjectReference Include="..\XamarinFormsApp.Repository\XamarinFormsApp.Repository.csproj" />
+    <ProjectReference Include="..\XamarinFormsApp.Utilities\XamarinFormsApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
